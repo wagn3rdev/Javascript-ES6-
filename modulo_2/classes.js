@@ -1,13 +1,20 @@
-class Human {
-    hungry = true
-    name
-    age
+
+class Animal {
     sex
 
     constructor(props) {
+        this.sex = props.sex
+    }
+}
+class Human extends Animal {
+    hungry = true
+    name
+    age
+
+    constructor(props) {
+        super(props)
         this.name = props.name
         this.age = props.age;
-        this.sex = props.sex;
     }
 
     eat () {
