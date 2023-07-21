@@ -1,0 +1,23 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "Estudo das funcionalidades da linguagem Javascript versão ES6+",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wagn3rdev/Javascript-ES6-.git"
+  },
+  "author": "Wagner",
+  "type": "module",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wagn3rdev/Javascript-ES6-/issues"
+  },
+  "homepage": "https://github.com/wagn3rdev/Javascript-ES6-#readme",
+  "dependencies": {
+    "chalk": "^5.3.0"
+  }
+}
